@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace csharp_abstract_animals
+namespace csharp_abstract_animals.Class
 {
-    internal class Dog: Animal
+    internal class Dog : Animal
     {
         public override void AnimalNoise()
         {

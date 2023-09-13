@@ -1,4 +1,4 @@
-﻿using csharp_abstract_animals;
+﻿using csharp_abstract_animals.Class;
 
 Console.WriteLine("Dog test");
 Dog dog = new Dog();

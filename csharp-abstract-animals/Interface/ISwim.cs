@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace csharp_abstract_animals
+namespace csharp_abstract_animals.Interface
 {
-    internal interface IFly
+    internal interface ISwim
     {
-        public void fly();
+        public void Swim();
     }
 }
