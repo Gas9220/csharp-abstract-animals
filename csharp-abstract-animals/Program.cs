@@ -1,5 +1,7 @@
 ﻿using csharp_abstract_animals.Class;
+using csharp_abstract_animals.Interface;
 
+// Class test
 Console.WriteLine("Dog test");
 Dog dog = new Dog();
 dog.Sleep();
@@ -30,4 +32,18 @@ dolphin.Sleep();
 dolphin.AnimalNoise();
 dolphin.Eat();
 
+Console.WriteLine();
 
+// Interface test
+void makeFly(IFly flyingAnimal)
+{
+    flyingAnimal.Fly();
+}
+
+void makeSwim(ISwim swimAnimal)
+{
+    swimAnimal.Swim();
+}
+
+makeFly(eagle);
+makeSwim(dolphin);
